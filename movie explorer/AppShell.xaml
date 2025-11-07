@@ -4,11 +4,28 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:movie_explorer"
-    Title="Movie Explorer">
+    Title="Movie Explorer"
+   >
+    
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        <TabBar Title="Home">
+            <ShellContent
+            Title="Favourites"
+            ContentTemplate="{DataTemplate local:Favourites}"
+            Route="Favourites"
+            />
 
+            <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+
+            <ShellContent
+            Title="Settings"
+            ContentTemplate="{DataTemplate local:Settings}"
+            Route="Settings"/>
+        </TabBar>
+  
 </Shell>
+    
+    
