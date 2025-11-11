@@ -4,7 +4,12 @@
              x:Class="movie_explorer.MainPage"
               Shell.NavBarIsVisible="False"
                xmlns:controls="clr-namespace:Xaminals.Controls">
+    
     <VerticalStackLayout>
+        <SearchBar>
+
+        </SearchBar>
+        <Grid></Grid>
        
     </VerticalStackLayout>
    

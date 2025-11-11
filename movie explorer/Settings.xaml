@@ -8,7 +8,7 @@
             <Button
                 Text="Theme"/>
             <Button
-                Text="Account"/>
+                Text="User"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
