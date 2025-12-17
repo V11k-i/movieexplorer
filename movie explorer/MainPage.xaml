@@ -3,31 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="movie_explorer.MainPage"
               Shell.NavBarIsVisible="False"
-               xmlns:controls="clr-namespace:Xaminals.Controls">
+             >
+    <!--xmlns:controls="clr-namespace:Xaminals.Controls">-->
     
-    <VerticalStackLayout>
-        <SearchBar>
+    <Grid RowDefinitions="Auto,*">
+        <SearchBar Grid.Row="0">
 
         </SearchBar>
-        <Grid>
-            <CollectionView ItemsSource="{Binding Movies}"
+     
+            <CollectionView Grid.Row="1"
+                            ItemsSource="{Binding Movies}"
                             SelectedItem="{Binding SelectedMovie}"
                             SelectionChanged="CollectionView_SelectionChanged">
                 <CollectionView.ItemTemplate>
-                    <DataTemplate x:DataType="local:Movie">
+                    <!--x:DataType="local:Movie"-->
+                    <DataTemplate>
                         <StackLayout Padding="10">
-                            <Label Text="{Binding Title}" FontSize="Medium" FontAttributes="Bold"/>
-                            <Label Text="{Binding Rating}" FontSize="Small"/>
-                            <Label Text="{Binding Year}" FontSize="Small"/>
-                            <Label Text="{Binding Genre}" FontSize="Small"/>
-                            <Label Text="{Binding Emoji}" FontSize="Small"/>
-                            <Label Text="{Binding Director}" FontSize="Small"/>
+                            <Label Text="{Binding title}" FontSize="Medium" FontAttributes="Bold"/>
+                            <Label Text="{Binding rating}" FontSize="Small"/>
+                            <Label Text="{Binding year}" FontSize="Small"/>
+                            <Label Text="{Binding formatGenre}" FontSize="Small"/>
+                            <Label Text="{Binding emoji}" FontSize="Small"/>
+                            <Label Text="{Binding director}" FontSize="Small"/>
                         </StackLayout>
-
+                    </DataTemplate>
+                    </CollectionView.ItemTemplate>
             </CollectionView>
-        </Grid>
+     
        
-    </VerticalStackLayout>
+    </Grid>
    
     
 

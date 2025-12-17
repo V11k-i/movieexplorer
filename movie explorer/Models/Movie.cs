@@ -8,12 +8,13 @@ namespace movie_explorer.Models
 {
     public class Movie
     {
-        public string Title { get; set; }
-        public int Year { get; set; }
-        public List<string> Genre { get; set; }
-        public string Director { get; set; }
-        public double Rating { get; set; }
-        public string Emoji { get; set; }
+        public string title { get; set; }
+        public int year { get; set; }
+        public List<string> genre { get; set; }
+        public string formatGenre => string.Join(", ", genre);
+        public string director { get; set; }
+        public double rating { get; set; }
+        public string emoji { get; set; }
     }
 
 }

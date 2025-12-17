@@ -5,19 +5,41 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace movie_explorer.ViewModels
 {
     
-    internal class MainPageViewModel : ViewModelBase
+    public class MainPageViewModel : ViewModelBase
     {
+        private MovieService _movieService;
 
         private Movie _selectedmovie;
-        public ObservableCollection<Movie> Movies {  get; set; }
+        private ObservableCollection<Movie> _movies = new();
+        public ObservableCollection<Movie> Movies
+        {
+            get => _movies;
+           
+        }
         public Movie SelectedMovie
         {
+
             get => _selectedmovie;
             set => SetProperty(ref _selectedmovie, value);
+        }
+        public ICommand LoadMovies { get; }
+        public MainPageViewModel()
+        {
+            _movieService = new MovieService();
+            LoadMovies = new Command(async () =>  await LoadMoviesAsync()); // command that will be called every time user opens mainpage
+        }
+
+        private async Task LoadMoviesAsync()
+        {
+            Movies.Clear();
+            var list = await _movieService.GetData();
+            foreach (var mov in list)
+                Movies.Add(mov);
         }
         
     }

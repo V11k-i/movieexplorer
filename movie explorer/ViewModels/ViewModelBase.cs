@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace movie_explorer.ViewModels
 {
-    internal class ViewModelBase : INotifyPropertyChanged
+    public abstract class ViewModelBase : INotifyPropertyChanged
     {
 
         public event PropertyChangedEventHandler? PropertyChanged;
