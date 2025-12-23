@@ -8,7 +8,7 @@
    >
     
 
-        <TabBar Title="Home">
+        <TabBar>
             <ShellContent
             Title="Favourites"
             ContentTemplate="{DataTemplate local:Favourites}"

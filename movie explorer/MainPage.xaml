@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="movie_explorer.MainPage"
               Shell.NavBarIsVisible="False"
+             x:Name="mnpg"
              >
     <!--xmlns:controls="clr-namespace:Xaminals.Controls">-->
     
@@ -14,19 +15,36 @@
             <CollectionView Grid.Row="1"
                             ItemsSource="{Binding Movies}"
                             SelectedItem="{Binding SelectedMovie}"
-                            SelectionChanged="CollectionView_SelectionChanged">
+                            SelectionChanged="CollectionView_SelectionChanged"
+                            >
                 <CollectionView.ItemTemplate>
                     <!--x:DataType="local:Movie"-->
                     <DataTemplate>
-                        <StackLayout Padding="10">
-                            <Label Text="{Binding title}" FontSize="Medium" FontAttributes="Bold"/>
-                            <Label Text="{Binding rating}" FontSize="Small"/>
-                            <Label Text="{Binding year}" FontSize="Small"/>
-                            <Label Text="{Binding formatGenre}" FontSize="Small"/>
-                            <Label Text="{Binding emoji}" FontSize="Small"/>
-                            <Label Text="{Binding director}" FontSize="Small"/>
-                        </StackLayout>
-                    </DataTemplate>
+                    <Grid ColumnDefinitions="2*, *"
+                          RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto"
+                          Padding="10">
+                        
+                        <Label Text="{Binding title}" FontSize="Medium" FontAttributes="Bold" Grid.Column="0" Grid.Row="0"/>
+                        <Label Text="{Binding rating}" FontSize="Small" Grid.Column="0" Grid.Row="1"/>
+                        <Label Text="{Binding year}" FontSize="Small" Grid.Column="0" Grid.Row="2"/>
+                        <Label Text="{Binding formatGenre}" FontSize="Small" Grid.Column="0" Grid.Row="3"/>
+                        <Label Text="{Binding emoji}" FontSize="Small" Grid.Column="0" Grid.Row="4"/>
+                        <Label Text="{Binding director}" FontSize="Small" Grid.Column="0" Grid.Row="5"/>
+                        
+                        <Label Grid.Column="1" Grid.Row="0" Grid.RowSpan="4">ada</Label>
+                        <Button  Grid.Column="1" Grid.Row="4" Grid.RowSpan="2" Text="Add Favourites"
+                                 Command="{Binding Source={x:Reference mnpg}, Path=BindingContext.FavouriteCmd}"
+                                 CommandParameter="{Binding .}">
+                            <Button.Triggers>
+                                <DataTrigger TargetType="Button" Binding="{Binding favourite}" Value="true">
+                                    <Setter Property="Text" Value="Remove Favourite"></Setter>
+                                </DataTrigger>
+                            </Button.Triggers>
+                        </Button>
+                                 
+                       
+                    </Grid>
+                </DataTemplate>
                     </CollectionView.ItemTemplate>
             </CollectionView>
      
