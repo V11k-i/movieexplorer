@@ -2,14 +2,16 @@
 {
     public partial class App : Application
     {
-        public App()
+        private readonly IServiceProvider _sp;
+        public App(IServiceProvider sp)
         {
             InitializeComponent();
+            _sp = sp;
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
+        
+           => new Window(_sp.GetRequiredService<AppShell>());
+        
     }
 }

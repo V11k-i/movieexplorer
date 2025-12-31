@@ -18,7 +18,7 @@
                             SelectionChanged="CollectionView_SelectionChanged"
                             >
                 <CollectionView.ItemTemplate>
-                    <!--x:DataType="local:Movie"-->
+                  
                     <DataTemplate>
                     <Grid ColumnDefinitions="2*, *"
                           RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto"
@@ -32,7 +32,7 @@
                         <Label Text="{Binding director}" FontSize="Small" Grid.Column="0" Grid.Row="5"/>
                         
                         <Label Grid.Column="1" Grid.Row="0" Grid.RowSpan="4">ada</Label>
-                        <Button  Grid.Column="1" Grid.Row="4" Grid.RowSpan="2" Text="Add Favourites"
+                        <Button  Grid.Column="1" Grid.Row="4" Grid.RowSpan="2" Text="Add Favourite"
                                  Command="{Binding Source={x:Reference mnpg}, Path=BindingContext.FavouriteCmd}"
                                  CommandParameter="{Binding .}">
                             <Button.Triggers>

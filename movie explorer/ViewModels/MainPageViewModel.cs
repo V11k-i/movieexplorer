@@ -12,15 +12,10 @@ namespace movie_explorer.ViewModels
 
     public class MainPageViewModel : ViewModelBase
     {
-        private MovieService _movieService;
-
+      
+        private MovieStore _movieStore;
         private Movie _selectedmovie;
-        private ObservableCollection<Movie> _movies = new();
-        public ObservableCollection<Movie> Movies
-        {
-            get => _movies;
-
-        }
+        public ObservableCollection<Movie> Movies => _movieStore.Movies;
         public Movie SelectedMovie
         {
 
@@ -28,33 +23,19 @@ namespace movie_explorer.ViewModels
             set => SetProperty(ref _selectedmovie, value);
         }
         public ICommand LoadMovies { get; }
-        public MainPageViewModel()
+        public MainPageViewModel(MovieStore mvstore)
         {
-            _movieService = new MovieService();
-            LoadMovies = new Command(async () => await LoadMoviesAsync()); // command that will be called every time user opens mainpage
+           _movieStore = mvstore;
         }
         public ICommand FavouriteCmd => new Command<Movie>(movie =>
         {
-            //if (movie.favourite == false)
-            //{
-            //    movie.favourite = true;
-            //    movie.emoji += " ⭐";
-
-            //}
-            //else
-            //{
-            //    movie.favourite = false;
-            //}
+            
             movie.favourite = !movie.favourite;
 
         });
-        private async Task LoadMoviesAsync()
-        {
-            Movies.Clear();
-            var list = await _movieService.GetData();
-            foreach (var mov in list)
-                Movies.Add(mov);
-        }
-        
+
+      //  public async Task LoadMoviesAsync() => wdada
+
+
     }
 }

@@ -11,7 +11,7 @@ using Microsoft.Maui.Storage;
 namespace movie_explorer.Models
 {
     
-     internal class MovieService // a service that is used to download and operate  JSON file containing information avbout movies
+     public class MovieService // a service that is used to download and operate  JSON file containing information avbout movies
     {
         public event EventHandler<string>? DataAvailable;
         private readonly HttpClient _httpClient = new();

@@ -3,24 +3,60 @@
   "WorkspaceRootPath": "E:\\projects\\movie explorer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\models\\moviestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\models\\moviestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\viewmodels\\favouritesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\viewmodels\\favouritesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\models\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\models\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\favourites.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\favourites.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\favourites.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\favourites.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\models\\movieuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\models\\movieuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|solutionrelative:movie explorer\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0792897D-9E6A-4E14-AFA3-ECD6F3AC0D79}|movie explorer\\movie explorer.csproj|e:\\projects\\movie explorer\\movie explorer\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,75 +74,185 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FavouritesViewModel.cs",
-              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\ViewModels\\FavouritesViewModel.cs",
-              "RelativeDocumentMoniker": "movie explorer\\ViewModels\\FavouritesViewModel.cs",
-              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\ViewModels\\FavouritesViewModel.cs",
-              "RelativeToolTip": "movie explorer\\ViewModels\\FavouritesViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "movie explorer\\MauiProgram.cs",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\MauiProgram.cs",
+              "RelativeToolTip": "movie explorer\\MauiProgram.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T20:32:15.974Z",
+              "WhenOpened": "2025-12-26T12:33:38.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "movieStore.cs",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\Models\\movieStore.cs",
+              "RelativeDocumentMoniker": "movie explorer\\Models\\movieStore.cs",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\Models\\movieStore.cs",
+              "RelativeToolTip": "movie explorer\\Models\\movieStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T12:51:46.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\App.xaml.cs",
+              "RelativeDocumentMoniker": "movie explorer\\App.xaml.cs",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\App.xaml.cs",
+              "RelativeToolTip": "movie explorer\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T18:07:29.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Favourites.xaml",
-              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\Favourites.xaml",
-              "RelativeDocumentMoniker": "movie explorer\\Favourites.xaml",
-              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\Favourites.xaml",
-              "RelativeToolTip": "movie explorer\\Favourites.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-23T20:30:45.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainPageViewModel.cs",
               "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\ViewModels\\MainPageViewModel.cs",
               "RelativeDocumentMoniker": "movie explorer\\ViewModels\\MainPageViewModel.cs",
               "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\ViewModels\\MainPageViewModel.cs",
               "RelativeToolTip": "movie explorer\\ViewModels\\MainPageViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-23T18:51:01.867Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\Models\\MovieService.cs",
+              "RelativeDocumentMoniker": "movie explorer\\Models\\MovieService.cs",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\Models\\MovieService.cs",
+              "RelativeToolTip": "movie explorer\\Models\\MovieService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T12:29:18.988Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "movie explorer\\AppShell.xaml.cs",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\AppShell.xaml.cs",
+              "RelativeToolTip": "movie explorer\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:12:49.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FavouritesViewModel.cs",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\ViewModels\\FavouritesViewModel.cs",
+              "RelativeDocumentMoniker": "movie explorer\\ViewModels\\FavouritesViewModel.cs",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\ViewModels\\FavouritesViewModel.cs",
+              "RelativeToolTip": "movie explorer\\ViewModels\\FavouritesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:32:15.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\MainPage.xaml",
               "RelativeDocumentMoniker": "movie explorer\\MainPage.xaml",
               "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\MainPage.xaml",
               "RelativeToolTip": "movie explorer\\MainPage.xaml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAowCMAAABvAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-23T18:18:38.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T18:18:38.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "MovieId.cs",
               "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\Models\\MovieId.cs",
               "RelativeDocumentMoniker": "movie explorer\\Models\\MovieId.cs",
               "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\Models\\MovieId.cs",
               "RelativeToolTip": "movie explorer\\Models\\MovieId.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-23T18:10:33.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "movie explorer\\MainPage.xaml.cs",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\MainPage.xaml.cs",
+              "RelativeToolTip": "movie explorer\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T16:01:31.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Favourites.xaml.cs",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\Favourites.xaml.cs",
+              "RelativeDocumentMoniker": "movie explorer\\Favourites.xaml.cs",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\Favourites.xaml.cs",
+              "RelativeToolTip": "movie explorer\\Favourites.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T11:57:15.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\AppShell.xaml",
+              "RelativeDocumentMoniker": "movie explorer\\AppShell.xaml",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\AppShell.xaml",
+              "RelativeToolTip": "movie explorer\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-30T12:13:04.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Favourites.xaml",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\Favourites.xaml",
+              "RelativeDocumentMoniker": "movie explorer\\Favourites.xaml",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\Favourites.xaml",
+              "RelativeToolTip": "movie explorer\\Favourites.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-23T20:30:45.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovieUser.cs",
+              "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\Models\\MovieUser.cs",
+              "RelativeDocumentMoniker": "movie explorer\\Models\\MovieUser.cs",
+              "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\Models\\MovieUser.cs",
+              "RelativeToolTip": "movie explorer\\Models\\MovieUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:51:59.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "movie explorer\\ViewModels\\ViewModelBase.cs",
@@ -114,21 +260,19 @@
               "RelativeToolTip": "movie explorer\\ViewModels\\ViewModelBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T20:11:35.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-23T20:11:35.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Movie.cs",
               "DocumentMoniker": "E:\\projects\\movie explorer\\movie explorer\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "movie explorer\\Models\\Movie.cs",
               "ToolTip": "E:\\projects\\movie explorer\\movie explorer\\Models\\Movie.cs",
               "RelativeToolTip": "movie explorer\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T15:02:28.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T15:02:28.926Z"
             }
           ]
         }

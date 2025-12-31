@@ -5,18 +5,18 @@ namespace movie_explorer
 {
     public partial class MainPage : ContentPage
     {
-        private  MainPageViewModel _MainPageViewModel;
-        public MainPage()
+        
+        public MainPage( MainPageViewModel viewmodel)
         {
-            _MainPageViewModel = new MainPageViewModel();
-            BindingContext = _MainPageViewModel;
+           
+            BindingContext = viewmodel;
             InitializeComponent();
            
         }
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            _MainPageViewModel.LoadMovies.Execute(this);
+            //_MainPageViewModel.LoadMovies.Execute(this);
             
         }
 

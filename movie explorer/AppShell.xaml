@@ -10,19 +10,18 @@
 
         <TabBar>
             <ShellContent
+            x:Name="Favs"
             Title="Favourites"
-            ContentTemplate="{DataTemplate local:Favourites}"
-            Route="Favourites"
-            />
+            Route="Favourites"/>
 
             <ShellContent
+            x:Name="Home"
             Title="Home"
-            ContentTemplate="{DataTemplate local:MainPage}"
-            Route="MainPage" />
+            Route="MainPage"/>
 
             <ShellContent
+            x:Name="Settings"
             Title="Settings"
-            ContentTemplate="{DataTemplate local:Settings}"
             Route="Settings"/>
         </TabBar>
   
