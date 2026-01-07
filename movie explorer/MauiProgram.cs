@@ -17,16 +17,20 @@ namespace movie_explorer
             //services registration
             builder.Services.AddSingleton<Models.MovieStore>();
             builder.Services.AddTransient<Models.MovieService>();
+            builder.Services.AddSingleton<Models.MovieUser>();
 
             //viewmodels registration
             builder.Services.AddTransient<ViewModels.MainPageViewModel>();
             builder.Services.AddTransient<ViewModels.FavouritesViewModel>();
+            builder.Services.AddTransient<ViewModels.MovieDetailsViewModel>();
+            builder.Services.AddTransient<ViewModels.SettingsViewModel>();
 
             //views registration
             builder.Services.AddSingleton<AppShell>();
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddTransient<Favourites>();
             builder.Services.AddTransient<Settings>();
+            builder.Services.AddTransient<MovieDetailsPage>();
             
 
 #if DEBUG

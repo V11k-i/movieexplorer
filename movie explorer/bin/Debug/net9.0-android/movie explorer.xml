@@ -4,6 +4,13 @@
         <name>movie explorer</name>
     </assembly>
     <members>
+        <member name="M:movie_explorer.Models.MovieService.PopulatePosterUrlsAsync(System.Collections.Generic.IEnumerable{movie_explorer.Models.Movie})">
+            <summary>
+            Best-effort poster lookup using Cinemeta (Stremio's public metadata service).
+            No API key required.
+            Runs safely in the background and fills Movie.posterUrl when missing.
+            </summary>
+        </member>
         <member name="T:movie_explorer.Resource">
             <summary>
             Android Resource Designer class.

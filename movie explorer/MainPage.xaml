@@ -8,13 +8,14 @@
     <!--xmlns:controls="clr-namespace:Xaminals.Controls">-->
     
     <Grid RowDefinitions="Auto,*">
-        <SearchBar Grid.Row="0">
-
-        </SearchBar>
+        <SearchBar Grid.Row="0"
+                   Text="{Binding SearchText}"
+                   Placeholder="Search title, director, genre" />
      
             <CollectionView Grid.Row="1"
-                            ItemsSource="{Binding Movies}"
+                            ItemsSource="{Binding FilteredMovies}"
                             SelectedItem="{Binding SelectedMovie}"
+                            SelectionMode="Single"
                             SelectionChanged="CollectionView_SelectionChanged"
                             >
                 <CollectionView.ItemTemplate>
@@ -31,7 +32,9 @@
                         <Label Text="{Binding emoji}" FontSize="Small" Grid.Column="0" Grid.Row="4"/>
                         <Label Text="{Binding director}" FontSize="Small" Grid.Column="0" Grid.Row="5"/>
                         
-                        <Label Grid.Column="1" Grid.Row="0" Grid.RowSpan="4">ada</Label>
+                        <Frame Grid.Column="1" Grid.Row="0" Grid.RowSpan="4" Padding="0" HasShadow="False" BorderColor="#00000000" BackgroundColor="Transparent">
+                            <Image BackgroundColor="Transparent" Source="{Binding posterSource}" Aspect="AspectFill" HeightRequest="150" WidthRequest="100" />
+                        </Frame>
                         <Button  Grid.Column="1" Grid.Row="4" Grid.RowSpan="2" Text="Add Favourite"
                                  Command="{Binding Source={x:Reference mnpg}, Path=BindingContext.FavouriteCmd}"
                                  CommandParameter="{Binding .}">

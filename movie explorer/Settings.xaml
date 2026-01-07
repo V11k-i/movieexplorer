@@ -4,11 +4,26 @@
              x:Class="movie_explorer.Settings"
              Title="Settings">
     <ScrollView>
-        <VerticalStackLayout>
-            <Button
-                Text="Theme"/>
-            <Button
-                Text="User"/>
+        <VerticalStackLayout Padding="16" Spacing="14">
+            <Label Text="User" FontAttributes="Bold" FontSize="18" />
+
+            <HorizontalStackLayout Spacing="12">
+                <Label Text="Name" VerticalOptions="Center" />
+                <Entry Text="{Binding UserName}" HorizontalOptions="FillAndExpand" Placeholder="Your name" />
+            </HorizontalStackLayout>
+
+            <BoxView HeightRequest="1" Opacity="0.15" />
+
+            <Label Text="Appearance" FontAttributes="Bold" FontSize="18" />
+
+            <HorizontalStackLayout Spacing="12">
+                <Label Text="Theme" VerticalOptions="Center" />
+                <Picker ItemsSource="{Binding ThemeOptions}"
+                        SelectedItem="{Binding SelectedTheme}"
+                        HorizontalOptions="FillAndExpand" />
+            </HorizontalStackLayout>
+
+            <Button Text="Apply" Command="{Binding ApplyThemeCommand}" />
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

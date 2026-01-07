@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="movie_explorer.MovieDetailsPage"
+             Title="Details">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+            <Frame Padding="0" HasShadow="False" BorderColor="#00000000">
+                <Image Source="{Binding Movie.posterSource}" HeightRequest="340" Aspect="AspectFit" />
+            </Frame>
+
+            <Label Text="{Binding Movie.title}" FontSize="24" FontAttributes="Bold" />
+            <Label Text="{Binding Movie.year, StringFormat='Year: {0}'}" />
+            <Label Text="{Binding Movie.rating, StringFormat='Rating: {0:F1}'}" />
+            <Label Text="{Binding Movie.director, StringFormat='Director: {0}'}" />
+            <Label Text="{Binding Movie.formatGenre, StringFormat='Genres: {0}'}" />
+
+            <Button Text="{Binding FavouriteButtonText}"
+                    Command="{Binding ToggleFavouriteCommand}"
+                    IsEnabled="{Binding CanToggleFavourite}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

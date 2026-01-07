@@ -6,6 +6,8 @@
         {
             InitializeComponent();
 
+            Routing.RegisterRoute(nameof(MovieDetailsPage), typeof(MovieDetailsPage));
+
             Favs.ContentTemplate = new DataTemplate(() => sp.GetRequiredService<Favourites>());
             Home.ContentTemplate = new DataTemplate(() => sp.GetRequiredService<MainPage>());
             Settings.ContentTemplate = new DataTemplate(() => sp.GetRequiredService<Settings>());

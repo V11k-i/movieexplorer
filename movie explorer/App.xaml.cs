@@ -7,6 +7,14 @@
         {
             InitializeComponent();
             _sp = sp;
+
+	            var theme = Models.AppSettings.GetTheme();
+	            UserAppTheme = theme switch
+	            {
+	                "Light" => AppTheme.Light,
+	                "Dark" => AppTheme.Dark,
+	                _ => AppTheme.Unspecified
+	            };
         }
 
         protected override Window CreateWindow(IActivationState? activationState)

@@ -4,13 +4,13 @@
              x:Class="movie_explorer.Favourites"
              Title="Favourites">
     <Grid RowDefinitions="Auto,*">
-       
+        <Label Grid.Row="0" Text="Your favourites" FontAttributes="Bold" FontSize="18" Padding="16,12" />
 
-        <CollectionView Grid.Row="0"
-                          ItemsSource="{Binding Movies}"
+        <CollectionView Grid.Row="1"
+                          ItemsSource="{Binding favs}"
                           SelectedItem="{Binding SelectedMovie}"
-                      
-                          >
+                          SelectionMode="Single"
+                          SelectionChanged="CollectionView_SelectionChanged">
             <CollectionView.ItemTemplate>
 
                 <DataTemplate>
@@ -25,13 +25,19 @@
                         <Label Text="{Binding emoji}" FontSize="Small" Grid.Column="0" Grid.Row="4"/>
                         <Label Text="{Binding director}" FontSize="Small" Grid.Column="0" Grid.Row="5"/>
 
-                        <Label Grid.Column="1" Grid.Row="0" Grid.RowSpan="4">ada</Label>
-                        <Button  Grid.Column="1" Grid.Row="4" Grid.RowSpan="2" Text="Add Favourite"
-                               Command="{Binding Source={x:Reference mnpg}, Path=BindingContext.FavouriteCmd}"
+                        <Frame Grid.Column="1" Grid.Row="0" Grid.RowSpan="4" Padding="0" HasShadow="False" BorderColor="#00000000" BackgroundColor="Transparent">
+                            <Image BackgroundColor="Transparent" Source="{Binding posterSource}" Aspect="AspectFill" HeightRequest="150" WidthRequest="100" />
+                        </Frame>
+
+                        <Button  Grid.Column="1" Grid.Row="4" Grid.RowSpan="2" Text="Remove Favourite"
+                               Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ToggleFavouriteCommand}"
                                CommandParameter="{Binding .}">
                             <Button.Triggers>
                                 <DataTrigger TargetType="Button" Binding="{Binding favourite}" Value="true">
                                     <Setter Property="Text" Value="Remove Favourite"></Setter>
+                                </DataTrigger>
+                                <DataTrigger TargetType="Button" Binding="{Binding favourite}" Value="false">
+                                    <Setter Property="Text" Value="Add Favourite"></Setter>
                                 </DataTrigger>
                             </Button.Triggers>
                         </Button>
